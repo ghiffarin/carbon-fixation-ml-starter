@@ -1,0 +1,17 @@
+data:
+  csv: data/processed/example_daily_fixation.csv  # put your csv here
+  target: co2_fixation_kg_m3_day
+  features:
+    - air_temp_c
+    - solar_irradiance_w_m2
+    - ph
+    - do_mg_l
+    - salinity_psu
+    - weekday
+model:
+  n_estimators: 400
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.9
+  colsample_bytree: 0.9
+output_dir: experiments/runs
