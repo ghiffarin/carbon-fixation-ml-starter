@@ -41,3 +41,5 @@ Steps:
 - **Metrics**: MAE, RMSE, MAPE, by-site breakdown
 - **Caveats**: domain shift, sensor noise, missing weather
 - **Intended use**: planning & ops; not safety-critical control
+
+First test push - Ghiffarin
