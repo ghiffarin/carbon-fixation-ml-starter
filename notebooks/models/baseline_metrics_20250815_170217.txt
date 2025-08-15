@@ -1,0 +1,5 @@
+Target: co2_fixation_g_l_day
+RMSE : 0.002121
+MAE  : 0.001248
+R^2  : 0.999907
+Rows : 300
